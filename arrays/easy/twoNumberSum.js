@@ -1,4 +1,4 @@
-// Day 1, Thu, 7/12/23
+// Day 1, Mon,11/12/23
 
 // Two Number Sum
 
@@ -19,6 +19,8 @@
 // [-1, 11] // the numbers could be in reverse order
 
 function twoNumberSum(arr, targetSum) {
+  console.log(arr);
+
   for (let i = 0; i < arr.length; i++) {
     for (let j = i + 1; j < arr.length; j++) {
       if (arr[i] + arr[j] === targetSum) {
@@ -26,7 +28,6 @@ function twoNumberSum(arr, targetSum) {
       }
     }
   }
-
   return [];
 }
 
@@ -54,4 +55,4 @@ function twoNumberSumTwo(arr, targetSum) {
 // Time Complexity: O(n), loop through the array once, access nums in constant time
 // Space Complexity; O(n), store the numbers in nums object
 
-console.log(twoNumberSumTwo([3, 5, -4, 8, 11, 1, -1, 6], 10));
+// console.log(twoNumberSumTwo([3, 5, -4, 8, 11, 1, -1, 6], 10));
