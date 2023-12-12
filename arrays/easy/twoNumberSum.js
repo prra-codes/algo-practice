@@ -1,4 +1,4 @@
-// Day 1, Mon,11/12/23
+// Day 1, Mon, 11/12/23
 
 // Two Number Sum
 
